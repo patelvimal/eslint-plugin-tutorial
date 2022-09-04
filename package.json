@@ -1,5 +1,5 @@
 {
-  "name": "@quramy/eslint-plugin-tutorial",
+  "name": "eslint-plugin-typescript-style-guide",
   "version": "1.0.0",
   "description": "A tutorial repository to create your first eslint rule",
   "main": "lib/index.js",
@@ -22,9 +22,9 @@
   "keywords": [
     "eslint",
     "typescript",
-    "example"
+    "style guide"
   ],
-  "author": "Quramy",
+  "author": "Vimal Patel",
   "license": "MIT",
   "devDependencies": {
     "@types/eslint": "8.4.6",
@@ -63,5 +63,8 @@
       "ts",
       "json"
     ]
+  },
+  "dependencies": {
+    "@typescript-eslint/experimental-utils": "^5.36.1"
   }
 }

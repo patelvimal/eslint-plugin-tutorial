@@ -1,7 +1,6 @@
-import noLiteral from "./rules/no-literal";
+import rules from "./rules";
 
-export = {
-  rules: {
-    "no-literal": noLiteral,
-  },
+const index :any  = {
+  rules
 };
+export = index;
